@@ -9,6 +9,7 @@ export function Footer() {
         <p>
           Works for {BS.min.year}–{BS.max.year} BS ({AD.min.year}–{AD.max.year} AD).
         </p>
+        <p>Deployed with GitHub Actions + Argo CD</p>
       </div>
     </footer>
   );
